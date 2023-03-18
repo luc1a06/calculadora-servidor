@@ -1,0 +1,70 @@
+body{
+	background-color: #F0CF65;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 500px;
+}
+nav{
+	color:white;
+}
+
+titulo{
+  margin-left: 100px;
+  font-family: 'SF Groove Machine', sans-serif;
+  font-size: 40px;
+  text-align: center;                                              
+}
+
+titulof{
+	margin-left: 100px;
+  font-family: 'SF Groove Machine', sans-serif;
+  font-size: 40px;
+  text-align: center;                                              
+}
+
+table{
+	margin-left: 100px;
+	background-color: #93C6D6;
+	color: #07257D;
+	text-align: center;
+	width: 900px;
+	border-color: #8A8CA3;
+}
+
+th{
+	font-family: 'Pirates of Cydonia', sans-serif;                                            
+	color: black;
+	font-weight: 1000;
+	text-align: center;
+}
+
+td{
+	color: #07257D;
+	font-weight: 700;
+	font-family: ;
+}
+texto{
+	font-family: 'Pirates of Cydonia', sans-serif;
+	font-size: 20px;
+}
+texto1{
+	font-family: 'SF Groove Machine', sans-serif;
+	font-size: 40px;
+	margin-left: 50px;
+}
+
+x{
+font-family: 'Pirates of Cydonia', sans-serif;
+font-size: 20px;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	box-shadow: black;
+}

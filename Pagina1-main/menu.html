@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE_edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/sf-groove-machine" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/pirates-of-cydonia" rel="stylesheet">
+
+
+    <title> Pagina 1 </title>
+</head>
+<body>
+	<div style="margin: 24px;">
+      <nav class="navbar navbar-light" style="background-color: #7D4E57;">
+      	<div class="container">
+      		<a class="navbar-brand" href="index.html">Inicio</a>
+      		<ul class="nav navbar-nav">
+                <li class="active">
+                	<a href="menu.html">Menú</a>
+                </li>
+                <li>   
+                	<a href="formulario.html">Formulario</a>
+                </li>
+                <li>
+                	<a href="resultado.html">Resultado</a>
+                </li>
+                <li>
+                	<a href="contacto.html">Contacto</a>
+                </li>
+      		</ul>
+      	</div>
+      </nav>
+	</div>
+
+  <titulo>MENÚ DEL RESTAURANTE</titulo>
+
+  <div id="menu"><div class="item">
+        <img src="./imagenes/hamburguesa.png" alt="Hamburguesa">
+        Hamburguesa
+        Incluye papas y aderezos para acompañar
+        <p class="precio">90.00 pesos</p>
+        </div>
+
+  <script type="text/javascript">
+    fetch('menu.json')
+    .then(response=>response.json())
+    .then(data=>{
+      const menu=document.getElementById('menu');
+      data.menu.forEach(item=>{
+        const container=document.createElement('div');
+        container.classList.add('item');
+        container.innerHTML=`
+        <img src="${item.imagen}" alt="${item.nombre}">
+        ${item.nombre}
+        ${item.descripcion}
+        <p class="precio">${item.precio.toFixed(2)} pesos</p>
+        `;
+
+        menu.appendChild(container);
+      });
+    });
+
+  </script>    
+</body>
+</html>
