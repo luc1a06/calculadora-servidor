@@ -19,34 +19,6 @@ titulo{
   text-align: center;                                              
 }
 
-titulof{
-	margin-left: 100px;
-  font-family: 'SF Groove Machine', sans-serif;
-  font-size: 40px;
-  text-align: center;                                              
-}
-
-table{
-	margin-left: 100px;
-	background-color: #93C6D6;
-	color: #07257D;
-	text-align: center;
-	width: 900px;
-	border-color: #8A8CA3;
-}
-
-th{
-	font-family: 'Pirates of Cydonia', sans-serif;                                            
-	color: black;
-	font-weight: 1000;
-	text-align: center;
-}
-
-td{
-	color: #07257D;
-	font-weight: 700;
-	font-family: ;
-}
 texto{
 	font-family: 'Pirates of Cydonia', sans-serif;
 	font-size: 20px;
@@ -67,4 +39,28 @@ img{
 	height: 100px;
 	border-radius: 10%;
 	box-shadow: black;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+th,td{
+	text-align: left;
+	padding: 8px;
+}
+
+th{
+	background-color: #DDEDAA;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: blue;
+}
+
+img{
+	width: 100px;
+	height: 100px; 
 }

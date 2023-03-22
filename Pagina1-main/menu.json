@@ -67,5 +67,64 @@
 			"imagen":"img/nuggets.png"
 		}
 
+	],
+	"extras":[
+		{
+			"nombre":"Tocino",
+			"descripcion":"Contiene carne",
+			"precio":10,
+			"imagen":"img/tocino.png"
+		},
+		{
+			"nombre":"Piña",
+			"descripcion":"Contiene carne",
+			"precio":10,
+			"imagen":"img/piña.png"
+		},
+		{
+			"nombre":"Pepinillos",
+			"descripcion":"Contiene carne",
+			"precio":15,
+			"imagen":"img/pepinillos.png"
+		},
+		{
+			"nombre":"Queso",
+			"descripcion":"Contiene carne",
+			"precio":15,
+			"imagen":"img/queso.png"
+		},
+		{
+			"nombre":"Aderezo",
+			"descripcion":"Contiene carne",
+			"precio":15,
+			"imagen":"img/aderezo.png"
+		}
+	],
+	"bebidas":[
+		{
+			"nombre":"Coca-Cola",
+			"precio":20,
+			"imagen":"img/cocacola.png"
+		},
+		{
+			"nombre":"Sprite",
+			"precio":20,
+			"imagen":"img/sprite.png"
+		},
+		{
+			"nombre":"Fanta",
+			"precio":20,
+			"imagen":"img/fanta.png"
+		},
+		{
+			"nombre":"Pepsi",
+			"precio":20,
+			"imagen":"img/pepsi.png"
+		},
+		{
+			"nombre":"Agua de Limon",
+			"precio":20,
+			"imagen":"img/agualimon.png"
+		}
 	]
 }
